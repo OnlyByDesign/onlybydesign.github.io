@@ -1,0 +1,50 @@
+.hidden {
+    display: none;
+}
+.input-area {
+    h2, h5 {
+        display: inline-block;
+    }
+    h2 {
+        margin-bottom: 0;
+    }
+    h5 {
+        cursor: pointer;
+    }
+    &-form {
+        * {
+            display: inline-block;
+        }
+        input {
+            &[type="text"] {
+                margin-right: 12.5px;
+            }
+            &[type="submit"] {
+                display: block;
+            }
+        }
+    }
+}
+.render-area {
+    padding-top: 50px;
+    &-item {
+        width: 20%;
+        display: inline-block;
+        vertical-align: top;
+        border: 1px solid black;
+        padding: 25px;
+        h2, h4 {
+            margin: 0;
+        }
+        h2 { }
+        h4 { }
+        p  { }
+        sub {
+            margin-top: 0;
+        }
+        a {
+            cursor: pointer;
+        }
+        button {}
+    }
+}

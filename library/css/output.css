@@ -1,0 +1,44 @@
+.hidden {
+  display: none;
+}
+
+.input-area h2, .input-area h5 {
+  display: inline-block;
+}
+.input-area h2 {
+  margin-bottom: 0;
+}
+.input-area h5 {
+  cursor: pointer;
+}
+.input-area-form * {
+  display: inline-block;
+}
+.input-area-form input[type=text] {
+  margin-right: 12.5px;
+}
+.input-area-form input[type=submit] {
+  display: block;
+}
+
+.render-area {
+  padding-top: 50px;
+}
+.render-area-item {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid black;
+  padding: 25px;
+}
+.render-area-item h2, .render-area-item h4 {
+  margin: 0;
+}
+.render-area-item sub {
+  margin-top: 0;
+}
+.render-area-item a {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=output.css.map */
